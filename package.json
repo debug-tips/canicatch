@@ -1,0 +1,43 @@
+{
+  "dependencies": {
+    "folder-hash": "^3.0.0",
+    "webdriverio": "^5.8.4"
+  },
+  "name": "canitrack",
+  "description": "Full compatibility tests &amp; reports for varies javascript runtime error capturing problems",
+  "version": "0.1.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@wdio/browserstack-service": "^5.9.0",
+    "@wdio/cli": "^5.9.0",
+    "@wdio/local-runner": "^5.9.0",
+    "@wdio/mocha-framework": "^5.9.0",
+    "@wdio/sync": "^5.9.0",
+    "chromedriver": "^74.0.0",
+    "mocha": "^6.1.4",
+    "wdio-chromedriver-service": "^5.0.1",
+    "wdio-json-reporter": "^1.1.0"
+  },
+  "scripts": {
+    "test": "mocha index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debug-tips/canitrack.git"
+  },
+  "keywords": [
+    "canitrack",
+    "apm",
+    "error",
+    "monitoring"
+  ],
+  "author": "jasonslyvia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/debug-tips/canitrack/issues"
+  },
+  "homepage": "https://github.com/debug-tips/canitrack#readme",
+  "engines": {
+    "node": ">=10"
+  }
+}
