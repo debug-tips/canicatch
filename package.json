@@ -3,7 +3,7 @@
     "folder-hash": "^3.0.0",
     "webdriverio": "^5.8.4"
   },
-  "name": "canitrack",
+  "name": "canicatch",
   "description": "Full compatibility tests &amp; reports for varies javascript runtime error capturing problems",
   "version": "0.1.0",
   "main": "index.js",
@@ -23,10 +23,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/debug-tips/canitrack.git"
+    "url": "git+https://github.com/debug-tips/canicatch.git"
   },
   "keywords": [
-    "canitrack",
+    "canicatch",
     "apm",
     "error",
     "monitoring"
@@ -34,9 +34,9 @@
   "author": "jasonslyvia",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/debug-tips/canitrack/issues"
+    "url": "https://github.com/debug-tips/canicatch/issues"
   },
-  "homepage": "https://github.com/debug-tips/canitrack#readme",
+  "homepage": "https://github.com/debug-tips/canicatch#readme",
   "engines": {
     "node": ">=10"
   }
