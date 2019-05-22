@@ -8,7 +8,7 @@ const { existsSync, readFileSync, writeFileSync, readdirSync, mkdirSync } = requ
 const path = require('path');
 
 const IS_CI = process.env.NODE_ENV === 'CI';
-const URL_PREFIX = IS_CI ? 'https://debug.tips/fixtures_generated/' : 'http://127.0.0.1:3000/';
+const URL_PREFIX = IS_CI ? 'https://debug.tips/canicatch/fixtures_generated/' : 'http://127.0.0.1:3000/';
 const REPORT_SCRIPTS = `function() { var span = document.createElement('span'); span.id = '__CAPTURED'; document.body.appendChild(span); }`;
 const INJECT_CAPTURE_SCRIPTS = [{
   type: 'onerror',
