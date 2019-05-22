@@ -19,7 +19,7 @@
   },
   "scripts": {
     "test": "mocha index.js",
-    "ci": "NODE_ENV=CI mocha index.js"
+    "ci": "NODE_ENV=CI wdio wdio.conf.js"
   },
   "repository": {
     "type": "git",
