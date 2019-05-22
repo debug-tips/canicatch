@@ -18,7 +18,8 @@
     "wdio-json-reporter": "^1.1.0"
   },
   "scripts": {
-    "test": "mocha index.js"
+    "test": "mocha index.js",
+    "ci": "NODE_ENV=CI mocha index.js"
   },
   "repository": {
     "type": "git",
